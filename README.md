@@ -1,4 +1,4 @@
-## AOSP für Nexus4 (mako) selbst bauen ##
+## AOSP fürs Nexus4 (mako) selbst bauen ##
 
 ### Repo ###
 
@@ -50,7 +50,8 @@ erstellen, und entsprechende Datei einfügen
 ### Propriertäre Dateien ###
 
 [Hier](https://developers.google.com/android/nexus/drivers?hl=de) zu finden (bzw. preview binaries [hier](https://developers.google.com/android/nexus/blobs-preview), entpacken und mit repo sync einfügen 
-(siehe local_manifest.xml)
+(siehe local_manifest.xml) oder einfach im Projekt "root" Ordner entpacken 
+(nach dem entpacken/sync muss z.b. das Verzeichnis ~/android/Projekt/vendor/qcom/mako existieren)
 
 (Wichtig: nicht vergessen sie in device/lge/mako einzubinden [Commit](https://github.com/vetzki/device_lge_mako/commit/35df836faea27b66ec79d0c8ca7e745abd97dfc1)
 
@@ -66,3 +67,6 @@ $ lunch
 (mako auswählen)
 $ make otapackage
 ```
+
+Es kann auch die buildspec.mk verwendet werden
+wget https://raw.githubusercontent.com/vetzki/local_manifests/master/buildspec.mk -O ~/android/Projekt/buildspec.mk
