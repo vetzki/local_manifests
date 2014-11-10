@@ -54,6 +54,8 @@
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-12.0" /> 
   <!-- Bash 4.3.x from https://github.com/invisiblek/android_external_bash 
   <project path="external/bash" name="invisiblek/android_external_bash" remote="github" revision="cm-11.0" />-->
+  <!-- DSP Manager -->
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omnirom" revision="android-5.0" />
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- Propertiary vendor files -->  
 <remote  name="MV" fetch="file:///home/mv/Datengrab/android/Projekt/binaries/mako-L/vendor/" />
