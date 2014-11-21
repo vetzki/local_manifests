@@ -59,8 +59,9 @@
   <remove-project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser.git" remote="github" revision="cm-12.0" />
   <!-- CM file manager -->
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- Propertiary vendor files -->  
+<!-- Propertiary vendor files -->
 <remote  name="MV" fetch="file:///home/mv/Datengrab/android/Projekt/binaries/mako-L/vendor/" />
 <project name="lge" path="vendor/lge" remote="MV" revision="master"/>
 <project name="qcom" path="vendor/qcom" remote="MV" revision="master"/>
