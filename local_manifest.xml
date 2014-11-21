@@ -58,8 +58,6 @@
   <!-- CM aosp Browser -->
   <remove-project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser.git" remote="github" revision="cm-12.0" />
-  <!-- CM file manager -->
-  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
   <!-- Unrar, Zip -->
   <project path="external/unrar" name="CyanogenMod/android_external_unrar" remote="github" revision="cm-12.0" />
   <project path="external/zip" name="CyanogenMod/android_external_zip" remote="github" revision="cm-12.0" />
