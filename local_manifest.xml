@@ -47,6 +47,7 @@
   <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_Launcher3" remote="github" revision="cm-12.0" />
   <!-- CM file manager -->
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
+  <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="github" revision="cm-12.0" />
   <!-- From CM Busybox -->
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-12.0" /> 
   <!-- Bash 4.3.x from https://github.com/CyanogenMod/android_external_bash -->
@@ -64,6 +65,12 @@
   <!-- CM Lock Clock -->
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-12.0" />
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-12.0" />
+  <!-- Calculator 
+  <remove-project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
+  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-12.0" />-->
+  <!-- CM Eleven -->
+  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-12.0" />
+  <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="github" revision="cm-12.0" />
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- Propertiary vendor files -->
 <remote  name="MV" fetch="file:///home/mv/Datengrab/android/Projekt/binaries/mako-L/vendor/" />
