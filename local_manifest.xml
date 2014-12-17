@@ -55,7 +55,7 @@
   <!-- Libncurses -->
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-12.0" />
   <!-- DSP Manager -->
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-12.0" />
   <!-- CM aosp Browser -->
   <remove-project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser.git" remote="github" revision="cm-12.0" />
@@ -71,6 +71,7 @@
   <!-- CM Eleven -->
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-12.0" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="github" revision="cm-12.0" />
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- Propertiary vendor files -->
 <remote  name="MV" fetch="file:///home/mv/Datengrab/android/Projekt/binaries/mako-L/vendor/" />
