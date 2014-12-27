@@ -29,7 +29,7 @@ $ mkdir -p ~/android/Projekt
 $ cd ~/android/Projekt
 
 # Repo im erstellen Verzeichnis installieren
-$ repo init -u https://android.googlesource.com/platform/manifest -b android-5.0.0_r2
+$ repo init -u https://android.googlesource.com/platform/manifest -b android-5.0.2_r1
 ```
 
 ### "Source tree" runterladen ###
