@@ -57,8 +57,6 @@ erstellen, und entsprechende Datei einfügen
 
 ### Building ###
 
-Oracle-Java 7 benutzen [(Howto](http://www.webupd8.org/2012/01/install-oracle-java-jdk-7-in-ubuntu-via.html))
-
 ```bash
 # In den Hauptordner der gesyncten Projekte wechseln
 $ cd ~/android/Projekt
