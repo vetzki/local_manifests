@@ -81,8 +81,8 @@
   <!-- PhotoPhase -->
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase.git" remote="github" revision="cm-12.0" />
   <!-- AOSP Terminal -->
-  <project path="external/libvterm" name="platform/external/libvterm" revision="master" />
-  <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" revision="master" />
+  <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" remote="github" revision="cm-12.0" />
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- Propertiary vendor files -->
 <remote  name="MV" fetch="file:///home/mv/Datengrab/android/Projekt/binaries/mako-L/vendor/" />
