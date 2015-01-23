@@ -68,3 +68,18 @@ $ make otapackage
 
 Es kann auch die buildspec.mk verwendet werden
 wget https://raw.githubusercontent.com/vetzki/local_manifests/master/buildspec.mk -O ~/android/Projekt/buildspec.mk
+
+Signieren m. Release-Keys:
+
+[Keys erstellen](http://www.kandroid.org/online-pdk/guide/release_keys.html)
+
+(Hinweis:
+statt nur release muss es releasekey sein)
+
+1. Schritt:
+./build/tools/releasetools/sign_target_files_apks -d PFAD_Key_Ordner PFAD_target-files NAME_zip
+(z.b. ./build/tools/releasetools/sign_target_files_apks -d vendor/mv/security/aosp_mako out/dist/aosp_mako-target_files-eng.mv.zip signed-target-files.zip )
+
+2. Schritt:
+build/tools/releasetools/ota_from_target_files NAME_zip NAME_ota_zip
+(z.b. build/tools/releasetools/ota_from_target_files signed-target-files.zip signed-aosp_mako-mv-ota-$(date +%d%m).zip )
