@@ -83,6 +83,9 @@
   <!-- AOSP Terminal -->
   <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" remote="github" revision="cm-12.0" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" remote="github" revision="cm-12.0" />
+  <!-- F2FS Tools ("cm version") -->
+  <remove-project path="external/f2fs-tools" name="platform/external/f2fs-tools" />
+  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-12.0" />
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- Propertiary vendor files -->
 <remote  name="MV" fetch="file:///home/mv/Datengrab/android/Projekt/binaries/mako-L/vendor/" />
