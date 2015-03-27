@@ -20,6 +20,11 @@
   <remove-project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" />
   <remove-project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
   <remove-project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" />
+  <remove-project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" />
+  <remove-project path="device/htc/flounder" name="device/htc/flounder" />
+  <remove-project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" />
+  <remove-project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" />
+  <remove-project path="device/asus/flo-kernel" name="device/asus/flo-kernel" />
   <!-- Test gcc 4.9  -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="master" />
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" revision="master" />
