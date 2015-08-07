@@ -28,6 +28,8 @@
   <!-- Test gcc 4.9  -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="master" />
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" revision="master" />
+  <!-- AOSP Browser2  -->
+  <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" revision="master" />
 <!-- Other Projects Repo's -->
 <remote  name="github"
            fetch="https://github.com/" />
